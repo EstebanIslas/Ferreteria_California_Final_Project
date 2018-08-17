@@ -1,0 +1,155 @@
+*{margin: 0; padding: 0;}
+
+/* -------------------- HEADER -------------------------------*/
+header {
+    width: 100%;
+    overflow: hidden;
+    background:  #0f1216;
+    margin-bottom: 20px;
+}
+.cent_contenido{ /* Centrar todo el contenido del header */
+    width: 90%;
+    max-width:1000px;
+    margin: auto;
+    overflow: hidden;
+}
+header #logo{ /* Tamaño de la imagen */
+    width: 240px;
+    height: 110px;
+    float: left;
+    line-height: 150px;
+}
+#portada{
+    width: 100%;
+    height: 35%;
+    line-height: 150px;
+}
+
+header nav{ /* Tamaño del menu */
+    float: right;
+    line-height: 150px; /* Espaciado */
+}
+header nav a{ /* Tamaños y espaciados del contenido del menu */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px;
+    line-height: normal;
+    font-size: 18px;
+}
+header nav a:hover{ /* Color de fondo al pasar el cursor en una opcion del menú */
+    background: #f56f3a;
+    border-radius: 5px;
+}
+/* -------------------- FOOTER ------------------------------- */
+footer {
+    width: 100%;
+    overflow: hidden;
+    background: #0f1216;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.cent_contenido2{ /* Centrar todo el contenido del header */
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    overflow: hidden;
+} 
+footer .cent_contenido2 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    text-align: left;
+}
+footer .cent_contenido3 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    text-align: right;
+}
+.cent_contenido3{
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    overflow: hidden;
+}
+#whats{
+    float: right;
+    padding: 0.5em;
+}
+
+/* --------------------- Formulario -------------------------- */
+#general{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(46, 44, 44);  
+    margin: auto;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+#general h1{text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 30px;}
+
+#Formulario{
+    width: 95%;
+    height: 52%;
+    background-color: rgb(46, 44, 44);  
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#Informacion{
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+}
+#Informacion h3{color:whitesmoke; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+#Informacion p{
+    text-align: justify; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 17px;
+    color: whitesmoke;
+}
+
+.btn_boton{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #f56f3a;
+    border-radius: 6px;
+    border: 2px solid #f56f3a;
+}
+
+#Formulario h1{color:whitesmoke; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 40px;
+}
+.categoria h2{
+    color:#f56f3a; 
+    font-size: 20px;
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.categoria{
+    border-radius: 10px;
+    width: 210px;
+    height: 210px;
+    background-color: #454649; 
+    float: left;
+    margin-top: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+.categoria p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

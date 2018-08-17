@@ -1,0 +1,119 @@
+*{margin: 0; padding: 0;}
+/* -------------------- FOOTER ------------------------------- */
+footer {
+    width: 100%;
+    overflow: hidden;
+    background: #0f1216;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.cent_contenido2{ /* Centrar todo el contenido del header */
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    overflow: hidden;
+} 
+footer .cent_contenido2 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    text-align: left;
+}
+footer .cent_contenido3 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    text-align: right;
+}
+.cent_contenido3{
+    width: 100%;
+    max-width:1000px;
+    margin:auto;
+    overflow: hidden;
+}
+#whats{
+    float: right;
+    padding: 0.5em;
+}
+
+/* -------------------- HEADER -------------------------------*/
+header {
+    width: 100%;
+    overflow: hidden;
+    background: #0f1216;
+    margin-bottom: 20px;
+  
+}
+.cent_contenido{ /* Centrar todo el contenido del header */
+    width: 90%;
+    max-width:1000px;
+    margin: auto;
+    overflow: hidden;
+}
+header #logo{ /* Tamaño de la imagen */
+    width: 240px;
+    height: 110px;
+    float: left;
+    
+}
+header nav{ /* Tamaño del menu */
+    float: right;
+    line-height: 150px; /* Espaciado */
+}
+header nav a{ /* Tamaños y espaciados del contenido del menu */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px;
+    line-height: normal;
+    font-size: 18px;
+}
+header nav a:hover{ /* Color de fondo al pasar el cursor en una opcion del menú */
+    background: #f56f3a;
+    border-radius: 5px;
+}
+/*estilo de los productos*/
+.productos{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(46, 44, 44); 
+    margin: auto;
+  
+}
+.productos h1{
+    color: #f56f3a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    margin-left:10px;
+}
+.imagenes img{
+    width: 100px;
+    height: 100px;
+}
+.imagenes h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.row h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f56f3a;
+    margin-top: 10px;
+}
+.card p{ /*precios de los productos*/
+    font: 18px;
+    color: #f56f3a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card{
+    border-radius: 10px;
+    width: 150px;
+    height: 180px;
+    background: #fff;
+    /*box-shadow: 0 1px 3px  rgb(211, 112, 20), 0 10px 20px rgb(211, 112, 20);*/
+    float: left;
+    margin: 1.3em;
+    margin-top: 3em;
+    border-color: #f56f3a;
+    
+}
+.cent_contenido button{
+    color: #0f1216;
+    background: #0f1216;
+}
